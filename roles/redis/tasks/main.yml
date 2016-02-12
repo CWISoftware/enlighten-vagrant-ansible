@@ -1,0 +1,7 @@
+---
+# file main.yml
+
+- name: install redis packages
+  yum: name={{ item }} state=present
+  with_items:
+    - redis

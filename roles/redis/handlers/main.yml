@@ -1,0 +1,11 @@
+---
+# file main.yml
+
+- name: start redis
+  service: name={{ redis_service }} state=started
+
+- name: stop redis
+  service: name={{ redis_service }} state=stoped
+
+- name: restart redis
+  service: name={{ redis_service }} state=restarted

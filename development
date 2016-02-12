@@ -1,0 +1,5 @@
+[webservers]
+127.0.0.1:2222 ansible_port=2222 ansible_ssh_user=vagrant ansible_ssh_private_key_file=../enlighten-vagrant/.vagrant/machines/default/virtualbox/private_key ansible_become=true
+
+[dbservers]
+127.0.0.1:2222 ansible_port=2222 ansible_ssh_user=vagrant ansible_ssh_private_key_file=../enlighten-vagrant/.vagrant/machines/default/virtualbox/private_key ansible_become=true

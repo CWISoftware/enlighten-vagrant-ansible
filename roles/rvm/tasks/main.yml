@@ -1,0 +1,5 @@
+---
+# file main.yml
+
+- name: adding ansible ssh user to rvm group
+  user: name={{ ansible_env.SUDO_USER }} groups=rvm append=yes

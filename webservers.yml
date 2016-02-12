@@ -1,0 +1,9 @@
+---
+# file webservers.yml
+
+- name: Configure Web Development Environment
+  hosts: webservers
+  roles:
+    - common
+    - redis
+    - rvm

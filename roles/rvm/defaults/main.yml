@@ -1,0 +1,7 @@
+---
+# file main.yml
+
+rvm1_rubies:
+  - 'ruby-2.2.2'
+
+rvm1_install_path: '/usr/local/rvm'

@@ -1,0 +1,6 @@
+---
+# file dbservers.yml
+- name: Configure DataBase Development Environment
+  hosts: dbservers
+  roles:
+    - postgresql
